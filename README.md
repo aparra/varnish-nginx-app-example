@@ -2,9 +2,11 @@
 
 Example of using `docker-compose` to configure nginx (proxing an node.js app) behind varnish.
 
+```
       +---------+      +---------+      +---------+
 ----->| varnish |----->|  ngix   |----->|   app   |
       +---------+      +---------+      +---------+
+```
 
 ### Usage
 
